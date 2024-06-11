@@ -1,0 +1,105 @@
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    background-color: var(--white);
+    box-shadow: 0 0 10px var(--white500);
+
+    h1 {
+        font-size: 30px;
+        font-weight: 900;
+        color: var(--pointColor);
+        padding: 2rem 2rem 1rem 2rem;
+    }
+
+    h2 {
+        font-family: var(--fontC);
+        font-size: 12px;
+        font-weight: 900;
+        color: var(--white400);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 2rem 2rem 1rem 2rem;
+    }
+
+    ul {
+        li {
+            color: var(--black500);
+            font-family: var(--fontH);
+            font-weight: 400;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 16px 0;
+            border-left: 5px solid transparent;
+            font-weight: 900;
+
+            svg {
+                margin-left: 20px;
+                vertical-align: -4px;
+                margin-right: 10px;
+                color: #59cbff;
+            }
+
+            a {
+                display: block;
+            }
+
+            .icon {
+                width: 20px;
+                height: 20px;
+                background-size: 20px;
+                background-repeat: no-repeat;
+                display: inline-block;
+                margin-right: 14px;
+                vertical-align: -3px;
+                border-radius: 3px;
+                margin-left: 20px;
+            }
+
+            &:nth-child(1) .icon {
+                background-image: url(../img/icon-melon.jpg);
+            }
+
+            &:nth-child(2) .icon {
+                background-image: url(../img/icon-bugs.jpg);
+            }
+
+            &:nth-child(3) .icon {
+                background-image: url(../img/icon-apple.jpg);
+            }
+
+            &:nth-child(4) .icon {
+                background-image: url(../img/icon-genie.jpg);
+            }
+
+            &:nth-child(5) .icon {
+                background-image: url(../img/icon-bill.jpg);
+            }
+
+            &:hover {
+                background-color: #f5f5ff;
+            }
+
+            &.active {
+                border-left: 5px solid #bce8fc;
+                background-color: #f5f5ff;
+            }
+
+            // .icon2 {
+            //     margin-left: 20px;
+            //     width: 20px;
+            //     height: 20px;
+            //     display: inline-block;
+            //     margin-right: 14px;
+
+            //     svg {
+            //         vertical-align: -5px;
+            //         width: 100%;
+            //         height: 100%;
+            //     }
+            // }
+        }
+    }
+}

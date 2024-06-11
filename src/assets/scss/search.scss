@@ -1,0 +1,24 @@
+.search {
+    position: relative;
+    padding: 2rem 2rem 1rem 2rem;
+
+    label {
+        position: absolute;
+        left: 49px;
+        height: 45px;
+
+        svg {
+            vertical-align: -15px;
+        }
+    }
+
+    input {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 50px;
+        font-family: var(--fontH);
+        font-weight: 700;
+        padding-left: 50px;
+        background-color: #fbfeff;
+    }
+}

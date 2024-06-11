@@ -1,0 +1,74 @@
+// wooJu
+
+@font-face {
+    font-family: "wooJu";
+    font-weight: normal;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/wooJu/wooJu.ttf") format("truetype");
+    font-display: swap;
+}
+
+.wooJu {
+    font-family: "wooJu";
+}
+
+// cookieRun
+
+@font-face {
+    font-family: "cookieRun";
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Regular.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Regular.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Regular.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Regular.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Regular.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "cookieRun";
+    font-weight: 700;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Bold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Bold.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Bold.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Bold.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "cookieRun";
+    font-weight: 900;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Black.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Black.eot?#iefix") format("embedded-opentype"),
+        url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Black.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Black.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/websfont/cookieRun/cookieRun-Black.ttf") format("truetype");
+    font-display: swap;
+}
+
+.cookieRun {
+    font-family: "cookieRun";
+}
+
+.cookieRun400 {
+    font-family: "cookieRun";
+    font-weight: 400;
+}
+
+.cookieRun700 {
+    font-family: "cookieRun";
+    font-weight: 700;
+}
+
+.cookieRun900 {
+    font-family: "cookieRun";
+    font-weight: 900;
+}

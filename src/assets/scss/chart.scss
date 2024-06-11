@@ -1,0 +1,164 @@
+.music-chart {
+    padding: 0 2rem 2rem 2rem;
+    margin-top: 1.5rem;
+    position: relative;
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.7rem;
+
+        h2 {}
+
+        .date-picker {
+            svg {
+                vertical-align: -7px;
+                margin-right: 0.3rem;
+            }
+
+            span {
+                font-family: var(--fontH);
+                font-size: 18px;
+            }
+
+            button {
+                background-color: var(--white);
+                margin-top: 7px;
+            }
+        }
+    }
+
+    >.list {
+        ul {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            li {
+                display: flex;
+                align-items: center;
+                margin: 4px 0;
+                padding: 5px 20px;
+                border-radius: 50px;
+                cursor: pointer;
+                font-family: var(--fontH);
+                font-weight: 700;
+                font-size: 18px;
+                background-color: #effaff;
+
+                .rank {
+                    flex: 0 0 50px;
+                    color: #004968;
+                    font-family: var(--fontC);
+                    font-weight: bold;
+                }
+
+                .img {
+                    width: 50px;
+                    height: 50px;
+                    display: inline-block;
+                    margin-right: 20px;
+                    background-size: cover;
+                    border-radius: 5px;
+
+                    img {
+                        width: 100%;
+                        border-radius: 10px;
+                    }
+                }
+
+                .title {
+                    flex: 1;
+                    color: #004968;
+                    padding-top: 0.7rem;
+                    font-size: 18px;
+                }
+
+                .album {
+                    margin-left: auto;
+                    color: #004968;
+                    font-size: 16px;
+                }
+
+                &:hover {
+                    background-color: #caeaf8;
+
+                    .album {
+                        color: var(--black100);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.youtube-result {
+    position: fixed;
+    left: 260px;
+    right: 400px;
+    bottom: 0;
+    height: 40vh;
+    background-color: rgb(212 236 255);
+
+    >h3 {
+        font-family: var(--fontC);
+        font-size: 24px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    >ul {
+        width: 100%;
+        padding: 10px 20px;
+
+        li {
+            font-family: var(--fontC);
+            font-size: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-bottom: 10px;
+            border-radius: 100px;
+            padding-right: 10px;
+            cursor: pointer;
+            background-color: #167ac629;
+
+            .img {
+                width: 50px;
+                height: 50px;
+                display: inline-block;
+                margin-right: 20px;
+                background-size: cover;
+                border-radius: 5px;
+            }
+
+            .title {
+                max-height: 45px;
+                font-family: var(--fontC);
+                font-weight: 300;
+                font-size: 16px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                flex: 1;
+                /* 타이틀이 나머지 공간을 채우도록 설정 */
+            }
+
+            .mv {
+                margin-left: auto;
+                margin-right: 15px;
+                margin-top: 5px;
+                /* 오른쪽으로 이동 */
+            }
+
+            .musiclist {
+                margin-left: auto;
+                margin-right: 20px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
